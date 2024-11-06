@@ -1,0 +1,114 @@
+﻿@model MicrovistaProjects.Models.Student
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<!-- Custom CSS for styling -->
+<style>
+    .form-container {
+        background-color: #fff;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+        .form-container h4 {
+            color: #007bff;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+    .form-group label {
+        font-weight: 600;
+        color: #333;
+    }
+
+    .form-control {
+        border-radius: 8px;
+        padding: 0.75rem;
+        border: 1px solid #ced4da;
+        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease;
+    }
+
+        .form-control:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+        }
+
+    .btn-custom {
+        background-color: #6a82fb;
+        background: linear-gradient(to right, #6a82fb, #fc5c7d);
+        color: white;
+        padding: 0.75rem 1.5rem;
+        border: none;
+        border-radius: 25px;
+        font-size: 1rem;
+        text-transform: uppercase;
+        transition: all 0.3s ease;
+        box-shadow: 0 5px 15px rgba(0, 123, 255, 0.2);
+    }
+
+        .btn-custom:hover {
+            background: linear-gradient(to right, #fc5c7d, #6a82fb);
+            box-shadow: 0 7px 20px rgba(252, 92, 125, 0.3);
+            transform: translateY(-2px);
+        }
+</style>
+
+<div class="container mt-5">
+    <div class="form-container">
+        <h4>Edit Student</h4>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                @Html.HiddenFor(model => model.id)
+
+                <!-- Student Name -->
+                <div class="form-group row">
+                    @Html.LabelFor(model => model.name, htmlAttributes: new { @class = "col-md-3 col-form-label text-md-right" })
+                    <div class="col-md-9">
+                        @Html.EditorFor(model => model.name, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter student name" } })
+                        @Html.ValidationMessageFor(model => model.name, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <!-- Date of Birth -->
+                <div class="form-group row">
+                    @Html.LabelFor(model => model.dob, htmlAttributes: new { @class = "col-md-3 col-form-label text-md-right" })
+                    <div class="col-md-9">
+                        @Html.TextBoxFor(model => model.dob, new { @class = "form-control", @type = "date" })
+                        @Html.ValidationMessageFor(model => model.dob, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <!-- Address -->
+                <div class="form-group row">
+                    @Html.LabelFor(model => model.address, htmlAttributes: new { @class = "col-md-3 col-form-label text-md-right" })
+                    <div class="col-md-9">
+                        @Html.EditorFor(model => model.address, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter address" } })
+                        @Html.ValidationMessageFor(model => model.address, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <!-- Save Button -->
+                <div class="form-group row">
+                    <div class="col-md-9 offset-md-3">
+                        <input type="submit" value="Save" class="btn btn-custom" />
+                    </div>
+                </div>
+            </div>
+        }
+
+        <div class="text-center mt-3">
+            @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-link" })
+        </div>
+    </div>
+</div>

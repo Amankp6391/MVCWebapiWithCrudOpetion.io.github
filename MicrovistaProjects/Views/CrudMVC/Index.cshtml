@@ -1,0 +1,87 @@
+﻿@model IEnumerable<MicrovistaProjects.Models.Student>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<!-- Custom CSS for table styling -->
+<style>
+    .custom-table {
+        width: 100%;
+        background-color: #fff;
+        border-collapse: collapse;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+
+        .custom-table th, .custom-table td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .custom-table th {
+            background-color: #007bff;
+            color: #fff;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .custom-table tbody tr:hover {
+            background-color: #f1f1f1;
+        }
+
+    .btn-custom {
+        margin-right: 5px;
+        padding: 0.5rem 1rem;
+        border-radius: 25px;
+        background-color: #6a82fb;
+        background: linear-gradient(to right, #6a82fb, #fc5c7d);
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        font-weight: 600;
+        border: none;
+        transition: all 0.3s ease;
+    }
+
+        .btn-custom:hover {
+            background: linear-gradient(to right, #fc5c7d, #6a82fb);
+        }
+</style>
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">@ViewBag.Title</h2>
+
+    <div class="text-right mb-3">
+        @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-custom" })
+    </div>
+
+    <table class="custom-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>DOB</th>
+                <th>Address</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.name)</td>
+                    <td>@Html.DisplayFor(modelItem => item.dob)</td>
+                    <td>@Html.DisplayFor(modelItem => item.address)</td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.id }, new { @class = "btn btn-custom" }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.id }, new { @class = "btn btn-custom" }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.id }, new { @class = "btn btn-danger" })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

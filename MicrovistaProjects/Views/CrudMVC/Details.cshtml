@@ -1,0 +1,111 @@
+﻿@model MicrovistaProjects.Models.Student
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<!-- Custom CSS for styling -->
+<style>
+    .details-container {
+        background-color: #fff;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        max-width: 700px;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+        .details-container h4 {
+            color: #007bff;
+            text-align: center;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .details-container dl dt {
+            font-weight: bold;
+            color: #333;
+            margin-top: 1rem;
+        }
+
+        .details-container dl dd {
+            margin-left: 0;
+            margin-bottom: 1rem;
+            font-size: 1rem;
+            color: #555;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 0.5rem;
+        }
+
+        .details-container p {
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        .details-container .btn-custom {
+            background-color: #6a82fb;
+            background: linear-gradient(to right, #6a82fb, #fc5c7d);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 25px;
+            font-size: 1rem;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0, 123, 255, 0.2);
+            text-decoration: none;
+        }
+
+            .details-container .btn-custom:hover {
+                background: linear-gradient(to right, #fc5c7d, #6a82fb);
+                box-shadow: 0 7px 20px rgba(252, 92, 125, 0.3);
+                transform: translateY(-2px);
+            }
+
+        .details-container .btn-link {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: 600;
+        }
+
+            .details-container .btn-link:hover {
+                color: #0056b3;
+                text-decoration: underline;
+            }
+</style>
+
+<div class="container mt-5">
+    <div class="details-container">
+        <h4>Student Details</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.name)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.name)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.dob)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.dob)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.address)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.address)
+            </dd>
+        </dl>
+
+        <p>
+            @Html.ActionLink("Edit", "Edit", new { id = Model.id }, new { @class = "btn btn-custom" }) |
+            @Html.ActionLink("Back to List", "Index", null, new { @class = "btn-link" })
+        </p>
+    </div>
+</div>

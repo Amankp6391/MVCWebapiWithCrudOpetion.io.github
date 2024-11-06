@@ -1,0 +1,152 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\AMAN\\Desktop\\WEBAPI\\MicrovistaProjects\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{277CC314-2FC1-41B4-ADA2-C418DDC2D490}|MicrovistaProjects\\MicrovistaProjects.csproj|C:\\Users\\AMAN\\Desktop\\WEBAPI\\MicrovistaProjects\\microvistaprojects\\controllers\\crudapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{277CC314-2FC1-41B4-ADA2-C418DDC2D490}|MicrovistaProjects\\MicrovistaProjects.csproj|solutionrelative:microvistaprojects\\controllers\\crudapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{277CC314-2FC1-41B4-ADA2-C418DDC2D490}|MicrovistaProjects\\MicrovistaProjects.csproj|C:\\Users\\AMAN\\Desktop\\WEBAPI\\MicrovistaProjects\\microvistaprojects\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{277CC314-2FC1-41B4-ADA2-C418DDC2D490}|MicrovistaProjects\\MicrovistaProjects.csproj|solutionrelative:microvistaprojects\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{277CC314-2FC1-41B4-ADA2-C418DDC2D490}|MicrovistaProjects\\MicrovistaProjects.csproj|C:\\Users\\AMAN\\Desktop\\WEBAPI\\MicrovistaProjects\\microvistaprojects\\views\\crudmvc\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{277CC314-2FC1-41B4-ADA2-C418DDC2D490}|MicrovistaProjects\\MicrovistaProjects.csproj|solutionrelative:microvistaprojects\\views\\crudmvc\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{277CC314-2FC1-41B4-ADA2-C418DDC2D490}|MicrovistaProjects\\MicrovistaProjects.csproj|c:\\users\\aman\\desktop\\webapi\\microvistaprojects\\microvistaprojects\\views\\crudmvc\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{277CC314-2FC1-41B4-ADA2-C418DDC2D490}|MicrovistaProjects\\MicrovistaProjects.csproj|solutionrelative:microvistaprojects\\views\\crudmvc\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{277CC314-2FC1-41B4-ADA2-C418DDC2D490}|MicrovistaProjects\\MicrovistaProjects.csproj|C:\\Users\\AMAN\\Desktop\\WEBAPI\\MicrovistaProjects\\microvistaprojects\\views\\crudmvc\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{277CC314-2FC1-41B4-ADA2-C418DDC2D490}|MicrovistaProjects\\MicrovistaProjects.csproj|solutionrelative:microvistaprojects\\views\\crudmvc\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{277CC314-2FC1-41B4-ADA2-C418DDC2D490}|MicrovistaProjects\\MicrovistaProjects.csproj|C:\\Users\\AMAN\\Desktop\\WEBAPI\\MicrovistaProjects\\microvistaprojects\\views\\crudmvc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{277CC314-2FC1-41B4-ADA2-C418DDC2D490}|MicrovistaProjects\\MicrovistaProjects.csproj|solutionrelative:microvistaprojects\\views\\crudmvc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{277CC314-2FC1-41B4-ADA2-C418DDC2D490}|MicrovistaProjects\\MicrovistaProjects.csproj|C:\\Users\\AMAN\\Desktop\\WEBAPI\\MicrovistaProjects\\microvistaprojects\\views\\crudmvc\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{277CC314-2FC1-41B4-ADA2-C418DDC2D490}|MicrovistaProjects\\MicrovistaProjects.csproj|solutionrelative:microvistaprojects\\views\\crudmvc\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{277CC314-2FC1-41B4-ADA2-C418DDC2D490}|MicrovistaProjects\\MicrovistaProjects.csproj|C:\\Users\\AMAN\\Desktop\\WEBAPI\\MicrovistaProjects\\microvistaprojects\\controllers\\crudmvccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{277CC314-2FC1-41B4-ADA2-C418DDC2D490}|MicrovistaProjects\\MicrovistaProjects.csproj|solutionrelative:microvistaprojects\\controllers\\crudmvccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\AMAN\\Desktop\\WEBAPI\\MicrovistaProjects\\MicrovistaProjects\\Views\\CrudMVC\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MicrovistaProjects\\Views\\CrudMVC\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\AMAN\\Desktop\\WEBAPI\\MicrovistaProjects\\MicrovistaProjects\\Views\\CrudMVC\\Delete.cshtml",
+              "RelativeToolTip": "MicrovistaProjects\\Views\\CrudMVC\\Delete.cshtml",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAkwHcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T18:39:13.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\AMAN\\Desktop\\WEBAPI\\MicrovistaProjects\\MicrovistaProjects\\Views\\CrudMVC\\Details.cshtml",
+              "RelativeDocumentMoniker": "MicrovistaProjects\\Views\\CrudMVC\\Details.cshtml",
+              "ToolTip": "C:\\Users\\AMAN\\Desktop\\WEBAPI\\MicrovistaProjects\\MicrovistaProjects\\Views\\CrudMVC\\Details.cshtml",
+              "RelativeToolTip": "MicrovistaProjects\\Views\\CrudMVC\\Details.cshtml",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAkwG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T18:37:54.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\AMAN\\Desktop\\WEBAPI\\MicrovistaProjects\\MicrovistaProjects\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "MicrovistaProjects\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\AMAN\\Desktop\\WEBAPI\\MicrovistaProjects\\MicrovistaProjects\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "MicrovistaProjects\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T18:22:42.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CrudApiController.cs",
+              "DocumentMoniker": "C:\\Users\\AMAN\\Desktop\\WEBAPI\\MicrovistaProjects\\MicrovistaProjects\\Controllers\\CrudApiController.cs",
+              "RelativeDocumentMoniker": "MicrovistaProjects\\Controllers\\CrudApiController.cs",
+              "ToolTip": "C:\\Users\\AMAN\\Desktop\\WEBAPI\\MicrovistaProjects\\MicrovistaProjects\\Controllers\\CrudApiController.cs",
+              "RelativeToolTip": "MicrovistaProjects\\Controllers\\CrudApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T14:06:51.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\AMAN\\Desktop\\WEBAPI\\MicrovistaProjects\\MicrovistaProjects\\Views\\CrudMVC\\Index.cshtml",
+              "RelativeDocumentMoniker": "MicrovistaProjects\\Views\\CrudMVC\\Index.cshtml",
+              "ToolTip": "C:\\Users\\AMAN\\Desktop\\WEBAPI\\MicrovistaProjects\\MicrovistaProjects\\Views\\CrudMVC\\Index.cshtml",
+              "RelativeToolTip": "MicrovistaProjects\\Views\\CrudMVC\\Index.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAkwEIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-06T13:59:04.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\AMAN\\Desktop\\WEBAPI\\MicrovistaProjects\\MicrovistaProjects\\Views\\CrudMVC\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MicrovistaProjects\\Views\\CrudMVC\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\AMAN\\Desktop\\WEBAPI\\MicrovistaProjects\\MicrovistaProjects\\Views\\CrudMVC\\Edit.cshtml",
+              "RelativeToolTip": "MicrovistaProjects\\Views\\CrudMVC\\Edit.cshtml",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAkwHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-06T13:57:12.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\AMAN\\Desktop\\WEBAPI\\MicrovistaProjects\\MicrovistaProjects\\Views\\CrudMVC\\Create.cshtml",
+              "RelativeDocumentMoniker": "MicrovistaProjects\\Views\\CrudMVC\\Create.cshtml",
+              "ToolTip": "C:\\Users\\AMAN\\Desktop\\WEBAPI\\MicrovistaProjects\\MicrovistaProjects\\Views\\CrudMVC\\Create.cshtml",
+              "RelativeToolTip": "MicrovistaProjects\\Views\\CrudMVC\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-06T13:54:45.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CrudMVCController.cs",
+              "DocumentMoniker": "C:\\Users\\AMAN\\Desktop\\WEBAPI\\MicrovistaProjects\\MicrovistaProjects\\Controllers\\CrudMVCController.cs",
+              "RelativeDocumentMoniker": "MicrovistaProjects\\Controllers\\CrudMVCController.cs",
+              "ToolTip": "C:\\Users\\AMAN\\Desktop\\WEBAPI\\MicrovistaProjects\\MicrovistaProjects\\Controllers\\CrudMVCController.cs",
+              "RelativeToolTip": "MicrovistaProjects\\Controllers\\CrudMVCController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAADgvyIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T13:52:59.678Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
